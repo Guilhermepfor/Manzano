@@ -1,0 +1,22 @@
+Algoritmo "ATIVIDADE K"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Jailson
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Guilherme
+// Data atual  : 06/04/2025
+Var
+   // Seção de Declarações das variáveis
+   contador, fatorial, v: inteiro
+
+Inicio
+   // Seção de Comandos, procedimento, funções, operadores, etc...
+   para contador de 1 ate 10 faca
+      se (contador % 2)<> 0 entao
+         fatorial <- 1
+         para v de 1 ate contador faca
+            fatorial <- fatorial * v
+         fimpara
+         escreval("Fatorial de",contador, " é igual a:", fatorial)
+      fimse
+   fimpara
+fimalgoritmo
